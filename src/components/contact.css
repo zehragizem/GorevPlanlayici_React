@@ -1,0 +1,75 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.contact h2 {
+    margin: 0px 10px 8px -20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #5b10b5; /* Metin rengi */
+}
+
+.contact p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0px 10px 38px -25px;
+    color: #5b10b5; /* Metin rengi */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    background: rgb(243, 243, 243); /* Gri arka plan rengi */
+    border: 2px solid #5b10b5;
+    border-radius: 20px;
+    color: #121212; /* Metin rengi */
+    margin: 0px 10px 8px -15px;
+    padding: 18px 26px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background: #fff; /* Beyaz arka plan rengi odaklandığında */
+    color: #121212;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7f7f7f; /* Gri placeholder metin rengi */
+}
+
+.contact-form input:focus::placeholder,
+.contact-form textarea:focus::placeholder {
+    color: #121212;
+    opacity: 0.8;
+}
+
+.contentHolder {
+   
+    justify-content: space-between;
+    display: flex;
+}
+
+.backdrop-backdrop-filter {
+    backdrop-filter: blur(8px);
+    /* Arka planı blurla */
+}

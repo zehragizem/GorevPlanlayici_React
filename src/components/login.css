@@ -1,0 +1,23 @@
+.appBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/Users/gizem/Desktop/reactproje/src/assets/images/ark2.jpg");
+    
+}
+
+.loginForm {
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 16px;
+    width: 350px; /* Adjust width as desired */
+    max-width: 100%; /* Ensure it's responsive and doesn't exceed parent container */
+    margin: auto; /* Center align the form horizontally */
+   
+}
+
+
+
